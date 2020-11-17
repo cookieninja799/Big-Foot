@@ -1,7 +1,3 @@
-function myFunc() {
-  alert('Woohoo, you win! You found Bigfoot!');
-}
-
 function loadBigFoot() {
   document.getElementById('bigFoot').src = 'bigfoot.png'
 }
