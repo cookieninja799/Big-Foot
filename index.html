@@ -6,9 +6,11 @@
     <title>repl.it</title>
     <link href="style.css" rel="stylesheet" type="text/css" />
   </head>
-  <body>
-    <img src="https://repl.it/@cookieninja799/DelayedUnequaledConfiguration#bigfoot.png" />
-    <button onclick="myFunction()">Click me</button>
+  <body onload="loadBigFoot()">
+    <img 
+    id = "bigFoot"; 
+    onclick="moveBigFoot()";
+    >
     <p id="demo"></p>
     <script src="script.js"></script>
   </body>

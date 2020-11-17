@@ -1,9 +1,19 @@
-function myFunction() {
-  var txt;
-  if (confirm("Press a button!")) {
-    txt = "You pressed OK!";
-  } else {
-    txt = "You pressed Cancel!";
-  }
-  document.getElementById("demo").innerHTML = txt;
+function myFunc() {
+  alert('Woohoo, you win! You found Bigfoot!');
+}
+
+function loadBigFoot() {
+  document.getElementById('bigFoot').src = 'bigfoot.png'
+}
+
+function moveBigFoot() {
+  alert('Woohoo, you win! You found Bigfoot!')
+  var picture = document.getElementById('bigFoot')
+
+
+  var x = Math.random() * 300
+  var y = Math.random() * 300
+
+  picture.style.top = x + 'px'
+  picture.style.left = y + 'px'
 }
